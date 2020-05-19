@@ -1,0 +1,108 @@
+h1, h2, h3, h4, h5, h6 { margin: 0 }
+a { text-decoration: none; }
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.back-to-main {
+	position: fixed;
+	top: 100px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.article {
+    display: flex;
+    height: 100vh;
+    background: url("img/background.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 20px;
+}
+
+.article-swipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article-link {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-content {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgba(255, 202, 56, 0.8);
+    width: 30%;
+    position: relative;
+}
+
+.article-content::before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    border-top: 100vh solid transparent;
+    border-right: 130px solid rgba(255, 202, 56, 0.8);
+}
+
+.content-link {
+    display: flex;
+    align-items: center;
+}
+
+.content-link-text {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-right: 5px;
+}
+
+.content-box {
+    text-align: right;
+}
+
+.content-title {
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.content-text {
+    font-size: 2.3rem;
+    font-weight: 550;
+}
+
+.view {
+    display: flex;
+    align-items: center;
+}
+
+.views {
+    font-weight: 500;
+}
+
+.view-img {
+    margin-right: 5px;
+}
+
+

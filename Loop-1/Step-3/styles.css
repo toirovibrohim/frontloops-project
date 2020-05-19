@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #16A085;
+	font: 16px "Roboto";
+	
+}
+
+.back-to-main {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 3px -1px rgba(0,0,0,0.5),
+				0 5px 24px -1px rgba(0,0,0,0.4);
+	width: 600px;
+	height: 470px;
+	margin: 100px auto 0;
+	overflow: hidden;
+
+	
+}
+
+.cardInfo {
+	margin: 20px 30px 0;
+	padding: 0 40px;
+	line-height: 2;
+
+}
+
+.cardInfoContainer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}	
+
+.hoverBorder {
+	width: 41px;
+	height: 41px;
+	border: 5px solid transparent;
+	border-radius: 25px;
+	transition: 0.4s;
+}
+
+.hoverBorder:hover {
+	border: 5px solid #EFEFEF;
+	border-radius: 25px; 
+	transition: 0.4s;
+}
+
+.cardInfoContainer img {
+	width: 25px;
+	height: 25px;
+	padding: 7px;
+	border: 1px solid #ababab;
+	border-radius: 25px;
+	
+}
+
+.cardInfo p {
+	color: #AAAAAA;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+table {
+	position: relative;
+	bottom: 30px;
+	margin: 30px;
+	padding: 15px 40px;
+	line-height: 3;
+	z-index: 1;
+}
+
+.name {
+	font-weight: 600;
+}
+
+.price {
+	position: absolute;
+	left: 450px;
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+
+.name, .total {
+	color: #5C5C5C;
+}
+
+.total {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 700;
+	
+}
+
+.bicycle {
+	width: 590px;
+	position: relative;
+	bottom: 180px;
+	z-index: 0;
+}

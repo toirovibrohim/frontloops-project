@@ -1,0 +1,106 @@
+html {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body{
+	margin:0;
+	padding: 0;
+	background-color: #85A5D4;
+	font: 1rem "Roboto", sans-serif;
+}
+
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.back-to-main {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.card {
+	width: 960px;
+	margin: 100px auto 0;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 3px -1px rgba(0,0,0,0.5), 
+				0 5px 24px -1px rgba(0,0,0,0.4);
+	padding: 20px;
+}
+
+.cardItem {
+	display: block;
+	float: left;
+	width: 33.33%;
+  min-height: 305px;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	transition: all 0.15s ease;
+}
+
+.cardItem img {
+	width: 70px;
+	height: 70px;
+}
+
+.cardHeader {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 1.2rem;
+	padding-top: 20px;
+}
+
+.cardText {
+	color: #9A9C9F;
+	font-size: 0.9rem;
+	font-weight: 450;
+	padding: 5px 25px ;
+	line-height: 1.5;
+}
+
+.price sup, .price {
+	font-size: 0.9rem;
+}
+
+.price strong {
+	font-size: 1.8rem;
+}
+
+.price {
+	font-weight: 900;
+}
+
+.cardHeader, .price {
+	color: #4D66C9;
+}
+
+.cardItem:hover {
+	background-color: #F6F6F6;
+	transition: all 0.15s ease;
+}
+
+.first {
+  margin-top: 35px;
+}
+

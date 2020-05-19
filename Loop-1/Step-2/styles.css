@@ -1,0 +1,109 @@
+body {
+	background-image: url("img/background.jpg");
+	background-position: center;
+	background-size: cover;
+	font: 1em "Roboto";
+	display: flex;
+
+
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+.back-to-main {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.card {
+	width: 350px;
+	height: 300px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: #fff;
+	margin: 50px auto 0;
+}
+
+.cardHeader {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	letter-spacing: 1px;
+	padding: 30px;
+}
+
+.cardListItem {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	color: #adadad;
+	border-top: 1px solid #efefef;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+.cardListItem img {
+	width: 50px;
+	height: 50px;
+	padding: 10px 25px 10px 30px;
+
+}
+
+.active {
+	color: black;
+}
+
+
+.cardListItem:hover {
+	background-color: #efefef;
+}
+
+.cardList .active::after {
+	content: url("img/check.svg");
+	position: relative;
+	left: 100px;
+}
+
+.cardFooter {
+	width: 350px;
+	height: auto;
+	display: block;
+	margin-top: -5px; 
+	padding: 15px 0; 
+	background-color: #598BDD;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 0.9rem;
+
+}
+
+.cardFooter img {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	top: 3px;
+}
+
+.cardFooter:active {
+	height: 17px;
+	transform: translateY(2px);
+
+}

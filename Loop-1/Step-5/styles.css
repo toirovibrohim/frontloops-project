@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("img/background.jpg") no-repeat fixed center ;
+	background-size: cover;
+	font: 16px "Roboto";
+}
+
+.back-to-main {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.boardCard {
+	background-color: #fff;
+	border-radius: 3px;
+	height: 440px;
+	margin: 100px auto 0;
+	width: 400px;
+}
+
+.cardLocation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0 20px;
+}
+
+.cardLocationContent {
+	margin-top: 45px;
+}
+
+.cardLocationContent h1 {
+	color: #3B8ACF;
+	font-size: 3.1rem;
+	font-family: Prompt;
+	text-transform: uppercase;
+}
+
+.cardLocation span {
+	background-color: #D3E6F4;
+	height: 5px;
+	margin: 90px 0 0 10px;
+	width: 28px;
+}
+
+.cardLocationContent p {
+	color: #AFB1B3;
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+
+.right {
+	margin-left: 22px;
+}
+
+.cardInfo {
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+	padding: 0 40px;
+	text-transform: uppercase;
+}
+
+.cardInfo2 {
+	margin-left: 75px;
+}
+
+.cardInfo3 {
+	margin-left: 80px;
+}
+
+.infoQ {
+	color: #AFB1B3;
+	font-size: 0.75rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.infoA {
+	font-size: 1rem;
+	font-weight: 450;
+	margin-top: 5px;
+
+}
+
+.passangerInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 0 40px;
+}
+
+.down {
+	margin-top: 20px;
+}
+
+
+.passangerInfo img {	
+	height: 150px;
+	width: 150px;
+}

@@ -1,0 +1,161 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #F2CE97;
+	font-family: "Roboto", sans-serif;
+}
+
+.back-to-main {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.card {
+	width: 1000px;
+	height: 555px;
+	background-color: #fff;
+	margin: 80px auto 0;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 0 3px -1px rgba(0,0,0,0.5), 
+				0 5px 24px -1px rgba(0,0,0,0.4);
+}
+
+.leftSide {
+	width: 400px;
+	height: auto;
+	background-color: #484956;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	padding: 60px 40px;
+}
+
+.header .text {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.header .text1 {
+	font-size: 30px;
+	color: #fff;
+}
+
+.header .shortLine {
+	width: 60px;
+	height: 4px;
+	background-color: #E37B62;
+	margin-top: 10px;
+}
+
+.author {
+	margin-top: 245px;
+	padding: 0 40px;
+	display: flex;
+	align-items: center; 
+}
+
+.author img {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	box-shadow: 0 0 3px -1px rgba(0,0,0,0.5), 
+				0 5px 24px -1px rgba(0,0,0,0.4);
+}
+
+.author a {
+	color: #fff;
+	margin-left: 15px;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.rightSide {
+	width: 600px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.longText {
+	font-size: 19px;
+	line-height: 1.5;
+	word-spacing: 1.5px; 
+	padding: 55px 40px 0;
+	font-weight: 400;
+}
+
+.bigLetter::first-letter {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.margin {
+	margin-top: -25px;
+}
+
+.info {
+	position: relative;
+	margin-top: 30px;
+	padding: 35px 40px 0; 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.info:before {
+	content: '';
+	position: absolute;
+    -webkit-box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.04);                
+    width: 100%; 
+    left: 0%;
+    top: 10px;
+    height: 100px;
+    bottom: 0;
+}
+
+.time {
+	font-weight: bold;
+}
+
+.comment {
+	margin-left: 255px;
+}
+
+.comments {
+	margin-left: 8px;
+	color: #BFBBBB;
+}
+
+.more {
+	margin-left: 24px;
+}
+
+
+
+
+
+

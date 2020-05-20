@@ -1,0 +1,180 @@
+html {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #F8EBE9;
+	font-family: "Roboto", sans-serif;
+}
+
+.back-to-main {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.back-img {
+	width: 30px;
+	height: 30px;
+}
+
+.card {
+	width: 1200px;
+	height: 800px;
+	margin: 50px auto 0;
+	display: flex;
+	flex-direction: row;
+	box-shadow: 0 0 3px -1px rgba(0,0,0,0.5), 
+				0 5px 24px -1px rgba(0,0,0,0.4);
+}
+
+.leftSide {
+	width: 400px;
+	height: auto;
+	background-image: url(img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.goBack {
+	display: flex;
+	flex-direction: row;
+	margin: 50px 0 0 40px;
+}
+
+.goBack:hover {
+	cursor: pointer;
+}
+
+.backImg {
+	width: 20px;
+	height: 20px;
+}
+
+.backText {
+	font-size: 15px;
+	margin: 2px 0 0 8px;
+	font-weight: 600;
+	color: #837d7d;
+}
+
+.backText:hover {
+	color: black;
+}
+
+
+.rightSide {
+	width: 800px;
+	height: auto;
+	background-color: white;
+}
+
+.headLine {
+	margin-top: 50px;
+}
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	margin-left: 450px;
+}
+
+.listText {
+	margin-right: 20px;
+	font-weight: 600;
+	color: #837d7d;
+	font-size: 15px;
+}
+
+.listText:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.mainContent {
+	margin: 80px 0 0 120px;
+	font-family: "Playfair Display";
+	display: flex;
+	flex-direction: row;
+}
+
+.active {
+	color: black;
+}
+
+
+.mainContent h1 {
+	font-size: 72px;
+	font-weight: 300;
+	width: 400px;
+	height: 165px;
+}
+
+.mainContent p {
+	font-size: 20px;
+}
+
+
+.line {
+	margin-top: 200px;
+	width: 100px;
+	height: 5px;
+	background-color: black;
+}
+
+.content {
+	margin: 40px 0 0 120px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.preview {
+	width: 220px;
+	height: 140px;
+}
+
+.pictures {
+	display: flex;
+	flex-direction: row;
+}
+
+.pictures p:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.pictures p {
+	font-size: 15px;
+	font-weight: 550;
+	color: #837d7d;
+}
+
+.contentArea {
+	display: flex;
+	flex-direction: column;
+}
+
+.contentText {
+	width: 300px;
+	margin-left: 50px;
+}
+
+.contentText p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 2;
+	margin: 0;
+
+}
+
+

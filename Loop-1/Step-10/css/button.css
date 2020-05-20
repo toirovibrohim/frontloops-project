@@ -1,0 +1,44 @@
+button {
+	margin: 50px 0 0 0;
+	padding:  15px 20px;
+	border: none;
+	background-color: #EA625C;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+button:hover {
+	background-color: #DC544A;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+.btn {
+	display: flex;
+	align-items: center;
+	width: 170px;
+	margin: 20px 0 0 0;
+}
+
+.btn:hover .btnLine {
+	width: 50px;
+	transition: 0.4s ease;
+}
+
+.btnLine {
+	width: 40px;
+	height: 3px;
+	background-color: #EA625C;
+	transition: 0.5s ease;
+}
+
+.btn p {
+	color: #EA625C;
+	margin: 0 0 0 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
